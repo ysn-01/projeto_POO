@@ -63,8 +63,6 @@ Fornecer um pequeno sistema de consola para gerir alojamentos e reservas, permit
     
 - Mensagens de erro disponíveis em vários idiomas.
 
----
-
 ### Arquitetura em camadas (N-tier)
 
 O projeto está organizado em:
