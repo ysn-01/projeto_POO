@@ -3,7 +3,7 @@
 Aplicação em C# desenvolvida no âmbito da unidade curricular **Programação Orientada a Objetos** do curso de **Engenharia de Sistemas Informáticos (LESI) – IPCA**.  
 O projeto implementa um sistema de gestão de alojamentos turísticos com foco em boas práticas de POO, princípios SOLID e arquitetura em camadas (N-tier).
 
-## 🎯 Objetivo
+## Objetivo
 
 Fornecer um pequeno sistema de consola para gerir alojamentos e reservas, permitindo:
 
@@ -12,7 +12,7 @@ Fornecer um pequeno sistema de consola para gerir alojamentos e reservas, permit
 - garantir validação consistente dos dados;
 - tratar erros de forma estruturada, com mensagens em vários idiomas.
 
-## ✨ Funcionalidades principais
+## Funcionalidades principais
 
 ### Gestão de alojamentos
 
@@ -75,7 +75,7 @@ O projeto está organizado em várias camadas lógicas:
 - **UI / Apresentação**
   - Projeto `trabalhoPOO_27957_fase2` com a classe `Program`, usada para testar e demonstrar as funcionalidades via consola.
 
-## 🧱 Tecnologias e conceitos
+## Tecnologias e conceitos
 
 - Linguagem: **C#**
 - Paradigma: **Programação Orientada a Objetos**
@@ -92,3 +92,5 @@ O projeto está organizado em várias camadas lógicas:
   - tratamento de erros,
   - apresentação.
 - Persistência em ficheiros binários.
+
+
