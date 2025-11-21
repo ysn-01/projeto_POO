@@ -11,6 +11,8 @@ Aplicação em C# desenvolvida no âmbito da unidade curricular **Programação 
 
 O projeto implementa um sistema de gestão de alojamentos turísticos com foco em boas práticas de POO, princípios SOLID e arquitetura em camadas (N-tier).
 
+---
+
 ## Objetivo
 
 Fornecer um pequeno sistema de consola para gerir alojamentos e reservas, permitindo:
@@ -19,6 +21,8 @@ Fornecer um pequeno sistema de consola para gerir alojamentos e reservas, permit
 - criar, atualizar, cancelar e listar reservas;
 - garantir validação consistente dos dados;
 - tratar erros de forma estruturada, com mensagens em vários idiomas.
+
+---
 
 ## Funcionalidades principais
 
@@ -59,6 +63,8 @@ Fornecer um pequeno sistema de consola para gerir alojamentos e reservas, permit
     
 - Mensagens de erro disponíveis em vários idiomas.
 
+---
+
 ### Arquitetura em camadas (N-tier)
 
 O projeto está organizado em:
@@ -70,6 +76,8 @@ O projeto está organizado em:
 - **TreatProblems**
 - **UI**
 
+---
+
 ## Tecnologias e conceitos
 
 - C#
@@ -77,3 +85,5 @@ O projeto está organizado em:
 - SOLID
 - Arquitetura N-tier
 - Persistência em ficheiros binários
+
+---
