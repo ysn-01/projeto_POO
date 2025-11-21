@@ -5,7 +5,8 @@ Projeto desenvolvido por **Yuri Nascimento**, aluno do curso de **Engenharia de 
 
 ---
 
-Aplicação em C# desenvolvida no âmbito da unidade curricular **Programação Orientada a Objetos**.  
+Aplicação em C# desenvolvida no âmbito da unidade curricular **Programação Orientada a Objetos**.
+
 O projeto implementa um sistema de gestão de alojamentos turísticos com foco em boas práticas de POO, princípios SOLID e arquitetura em camadas (N-tier).
 
 ## Objetivo
@@ -25,19 +26,29 @@ Fornecer um pequeno sistema de consola para gerir alojamentos e reservas, permit
   - nome, localidade, preço por noite;
   - número de quartos, capacidade máxima;
   - indicação de garagem e piscina.
+
 - Atualização e remoção de alojamentos existentes.
+  
 - Verificação de disponibilidade.
+  
 - Ordenação de casas por preço (crescente).
+  
 - Persistência da lista de alojamentos em ficheiros binários.
 
 ### Gestão de reservas
 
 - Criação de reservas (`Reservation`) associadas a uma casa.
+  
 - Validação de datas de início/fim.
+  
 - Cálculo automático do custo da reserva com base no número de noites e no preço por noite.
+  
 - Atualização e remoção de reservas.
+  
 - Cancelamento de reservas (com marcação lógica via ID especial).
+  
 - Ordenação de reservas por data de início.
+  
 - Persistência de reservas em ficheiros binários.
 
 ### Validação e tratamento de erros
