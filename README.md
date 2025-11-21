@@ -57,11 +57,13 @@ Fornecer um pequeno sistema de consola para gerir alojamentos e reservas, permit
   - `House`
   - `HouseLight`
   - `Reservation`
+    
 - Lançamento de exceções específicas:
   - `HouseExceptions`
   - `ReservationExceptions`
   - `ValidateHouseExceptions`
   - `ValidateReservationExceptions`
+    
 - Mensagens de erro disponíveis em vários idiomas.
 
 ### Arquitetura em camadas (N-tier)
@@ -82,10 +84,3 @@ O projeto está organizado em:
 - SOLID
 - Arquitetura N-tier
 - Persistência em ficheiros binários
-
-## 🚀 Como executar
-
-1. Clonar o repositório:
-   ```bash
-   git clone https://github.com/<o_teu_utilizador>/<o_teu_repositorio>.git
-   cd <o_teu_repositorio>
