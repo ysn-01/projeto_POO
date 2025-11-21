@@ -1,7 +1,10 @@
 # Gestão de Alojamentos Turísticos (POO – C#)
 
 ## Autor
-Projeto desenvolvido por **Yuri Nascimento**, aluno do curso de **Engenharia de Sistemas Informáticos** no **Instituto Politécnico do Cávado e do Ave**.
+- **Nome:** Yuri Nascimento
+- **Número:** 27957
+- **Curso:** Engenharia de Sistemas Informáticos
+- **Universidade:** Instituto Politécnico do Cávado e do Ave
 
 ---
 
