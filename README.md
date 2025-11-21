@@ -1,6 +1,11 @@
 # Gestão de Alojamentos Turísticos (POO – C#)
 
-Aplicação em C# desenvolvida no âmbito da unidade curricular **Programação Orientada a Objetos** do curso de **Engenharia de Sistemas Informáticos (LESI) – IPCA**.  
+## Autor
+Projeto desenvolvido por **Yuri Nascimento**, aluno do curso de **Engenharia de Sistemas Informáticos** no **Instituto Politécnico do Cávado e do Ave**.
+
+---
+
+Aplicação em C# desenvolvida no âmbito da unidade curricular **Programação Orientada a Objetos**.  
 O projeto implementa um sistema de gestão de alojamentos turísticos com foco em boas práticas de POO, princípios SOLID e arquitetura em camadas (N-tier).
 
 ## Objetivo
@@ -23,8 +28,7 @@ Fornecer um pequeno sistema de consola para gerir alojamentos e reservas, permit
 - Atualização e remoção de alojamentos existentes.
 - Verificação de disponibilidade.
 - Ordenação de casas por preço (crescente).
-- Persistência da lista de alojamentos em ficheiros binários
-  (guardar e ler de ficheiro).
+- Persistência da lista de alojamentos em ficheiros binários.
 
 ### Gestão de reservas
 
@@ -34,7 +38,7 @@ Fornecer um pequeno sistema de consola para gerir alojamentos e reservas, permit
 - Atualização e remoção de reservas.
 - Cancelamento de reservas (com marcação lógica via ID especial).
 - Ordenação de reservas por data de início.
-- Persistência da lista de reservas em ficheiros binários.
+- Persistência de reservas em ficheiros binários.
 
 ### Validação e tratamento de erros
 
@@ -47,50 +51,30 @@ Fornecer um pequeno sistema de consola para gerir alojamentos e reservas, permit
   - `ReservationExceptions`
   - `ValidateHouseExceptions`
   - `ValidateReservationExceptions`
-- Mensagens de erro disponíveis em vários idiomas (português, inglês, espanhol, mandarim, hindi, árabe, francês, alemão, japonês, coreano, russo).
+- Mensagens de erro disponíveis em vários idiomas.
 
 ### Arquitetura em camadas (N-tier)
 
-O projeto está organizado em várias camadas lógicas:
+O projeto está organizado em:
 
 - **BusinessObjects**
-  - `Accommodation` (classe abstrata)
-  - `House`
-  - `HouseLight`
-  - `Reservation`
-  - `Enums` (permissões de utilizador)
 - **Data**
-  - `Houses` (lista estática de casas e operações sobre a lista)
-  - `Reservations` (lista estática de reservas e operações sobre a lista)
 - **Rules**
-  - `HouseRules`
-  - `ReservationRules`  
-  Camada que expõe operações da camada de dados à camada de apresentação, respeitando níveis de permissões.
 - **Validations**
-  - `ValidateHouse`
-  - `ValidateHouseLight`
-  - `ValidateReservation`
 - **TreatProblems**
-  - Todas as classes de exceções e mensagens de erro.
-- **UI / Apresentação**
-  - Projeto `trabalhoPOO_27957_fase2` com a classe `Program`, usada para testar e demonstrar as funcionalidades via consola.
+- **UI**
 
 ## Tecnologias e conceitos
 
-- Linguagem: **C#**
-- Paradigma: **Programação Orientada a Objetos**
-  - Abstração, encapsulamento, herança, polimorfismo.
-- Princípios **SOLID**:
-  - Single Responsibility Principle (SRP)
-  - Open/Closed Principle (OCP)
-  - Dependency Inversion Principle (DIP)
-- Arquitetura **N-tier** com separação clara entre:
-  - objetos de negócio,
-  - acesso/manipulação de dados,
-  - regras de negócio,
-  - validações,
-  - tratamento de erros,
-  - apresentação.
-- Persistência em ficheiros binários.
+- C#
+- POO (abstração, encapsulamento, herança, polimorfismo)
+- SOLID
+- Arquitetura N-tier
+- Persistência em ficheiros binários
 
+## 🚀 Como executar
 
+1. Clonar o repositório:
+   ```bash
+   git clone https://github.com/<o_teu_utilizador>/<o_teu_repositorio>.git
+   cd <o_teu_repositorio>
