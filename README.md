@@ -1,8 +1,8 @@
 # Gestão de Alojamentos Turísticos (POO – C#)
 
 ## Autor
-- **Nome:** Yuri Nascimento
-- **Número:** 27957
+- **Nome:** Yuri Nascimento, Tiago Ferreira
+- **Número:** 27957, 27980
 - **Curso:** Engenharia de Sistemas Informáticos
 
 ---
